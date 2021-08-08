@@ -1,0 +1,29 @@
+// px 转换成rem 
+$fontSize: 37.5;
+@function px2rem($px) {
+  @return ($px / $fontSize) + rem
+};
+
+@mixin center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin center-b() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 颜色变量
+$bg-main: #22262B;
+// $bg-main: #1C2244;
+$bg-gray: #323741;
+// $bg-gray: #4C4E6C;
+$f-white: #ffffff;
+
+// 边框圆角变量
+$br-10: 10px;
+$br-20: 20px;
+$br-30: 30px;

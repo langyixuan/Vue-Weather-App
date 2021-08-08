@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import AddCity from '../views/AddCity.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'AddCity',
-    component: AddCity
+    name: 'Home',
+    component: Home
   },
 ]
 

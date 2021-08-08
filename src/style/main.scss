@@ -1,0 +1,5 @@
+// 引入global: 规定了整个站点的公共样式，公共方法和参数等
+@import './global.scss';
+
+// 引入normalize: 消除不同浏览器默认样式的不一致性
+@import './normalize.scss';
