@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1628005521648') format('truetype');
+  src: url('iconfont.ttf?t=1628957047811') format('truetype');
 }
 
 .iconfont {
@@ -23,7 +23,31 @@
   content: "\e656";
 }
 
+.icon-humidity:before {
+  content: "\e6f7";
+}
+
 .icon-shanchu:before {
   content: "\e60a";
+}
+
+.icon-fengsu:before {
+  content: "\e782";
+}
+
+.icon-humidity1:before {
+  content: "\e66c";
+}
+
+.icon-shanchu1:before {
+  content: "\e8b2";
+}
+
+.icon-tianjia1:before {
+  content: "\e63b";
+}
+
+.icon-ziwaixian:before {
+  content: "\e640";
 }
 

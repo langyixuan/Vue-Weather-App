@@ -1,8 +1,9 @@
 <template>
-  <div class="home">
+  <div class="home" >
     <HomeHeader />
     <CurrentCityWeather :currentWeather="currentWeather" v-if="currentWeather"/>
-    <FavLocation :cities="cities"/>
+    <FavLocation/>
+    <CityModal />
   </div>
 </template>
 
@@ -10,16 +11,27 @@
 import CurrentCityWeather from '../components/CurrentCityWeather'
 import HomeHeader from '../components/HomeHeader'
 import FavLocation from '../components/FavLocation'
+import CityModal from '../components/CityModal'
 export default {
   name: 'Home',
-  components: { CurrentCityWeather, HomeHeader, FavLocation },
-  props: ['currentWeather', 'cities'],
+  components: { CurrentCityWeather, HomeHeader, FavLocation, CityModal },
+  props: ['currentWeather'],
   created(){
     console.log(this.currentWeather)
-    console.log(this.cities)
-  }
+    this.$bus.$on('getModalTriggle', (data) => {
+      if (data) {
+        this.$refs.home.style.backgroundColor = 'red'
+      }
+    })
+  },
+  mounted() {
+    
+  },
 }
 </script>
 
 <style lang="scss" scoped>
+.home {
+  position: relative;
+}
 </style>

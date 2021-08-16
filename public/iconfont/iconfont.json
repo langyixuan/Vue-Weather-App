@@ -27,11 +27,53 @@
       "unicode_decimal": 58966
     },
     {
+      "icon_id": "5996728",
+      "name": "湿度",
+      "font_class": "humidity",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
       "icon_id": "13281080",
       "name": "删除",
       "font_class": "shanchu",
       "unicode": "e60a",
       "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "13804983",
+      "name": "风速",
+      "font_class": "fengsu",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "17775540",
+      "name": "humidity",
+      "font_class": "humidity1",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "20912245",
+      "name": "删除",
+      "font_class": "shanchu1",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    },
+    {
+      "icon_id": "21232754",
+      "name": "添加",
+      "font_class": "tianjia1",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "21237419",
+      "name": "紫外线",
+      "font_class": "ziwaixian",
+      "unicode": "e640",
+      "unicode_decimal": 58944
     }
   ]
 }

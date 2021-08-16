@@ -1,3 +1,7 @@
+/**
+ * 初始化firebase
+ * 主要作用：远端数据库
+ */
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 

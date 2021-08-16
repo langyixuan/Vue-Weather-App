@@ -15,9 +15,7 @@ export default {
 <style lang="scss" scoped>
 #home-header {
   height: px2rem(50);
-  // background-color: #ccc;
-  color: #fff;
-  // @include center;
+  color: $f-white;
   flex-wrap: wrap;
   margin-bottom: px2rem(30);
   display: flex;
@@ -26,10 +24,7 @@ export default {
   h1 {
     width: 100%;
     display: block;
-    // background-color: orange;
     font-size: px2rem(16);
-    // color: #ccc;
-    // font-weight: 700;
   }
 
   p {

@@ -4,7 +4,7 @@
     <div class="detail">
       <span class="temp">{{Math.round(currentWeather.main.temp - 273.15)}}<sup>&#8451;</sup></span>
       <div class="desc">
-        <p>{{currentWeather.weather[0].description}}</p>
+        <p>{{currentWeather.weather[0].description | upperCase }}</p>
         <i class="iconfont icon-location"></i>
         <span>{{currentWeather.name}}</span>
       </div>
@@ -34,6 +34,7 @@ export default {
   border-radius: $br-20;
   @include center-b;
   padding: 0.5rem;
+  box-shadow: $shadow1;
 
   img {
     width: px2rem(100);
@@ -57,10 +58,10 @@ export default {
     text-align: right;
     margin-top: px2rem(10);
     p {
-      // display: inline-block;
+      font-size: px2rem(16);
       color: $f-white;
       font-weight: 700;
-      // font-size: px2rem(16);
+      margin-bottom: px2rem(10);
     }
 
     i {
@@ -71,7 +72,6 @@ export default {
     i, span {
       color: orange;
       margin-top: px2rem(10);
-      // font-weight: 700;
     }
   }
 }
