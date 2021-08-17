@@ -127,7 +127,7 @@ export default {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 70vh;
+    height: 62%;
     background-color: $bg-gray;
     z-index: 1;
   }

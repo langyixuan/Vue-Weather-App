@@ -1,5 +1,5 @@
 <template>
-  <div id="current-city-weather">
+  <div id="current-city-weather" @click="toDetail">
     <img :src="require(`../../public/weather_icon/${currentWeather.weather[0].icon}.png`)">
     <div class="detail">
       <span class="temp">{{Math.round(currentWeather.main.temp - 273.15)}}<sup>&#8451;</sup></span>
@@ -21,8 +21,11 @@ export default {
       
     }
   },
- 
-
+  methods:{
+    toDetail(){
+      this.$router.push(`weather/${this.currentWeather.name}`)
+    }
+  }
 }
 </script>
 

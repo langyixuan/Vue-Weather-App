@@ -41,14 +41,14 @@ export default {
   },
   created(){
     this.$bus.$on('getFavCities', (data) => {
-      console.log('我需要favData的数据', data)
+      // console.log('我需要favData的数据', data)
       this.favCities = data
     })
   },
   // props: ['cities'],
   mounted() {
     this.$bus.$on('getFavCities', (data) => {
-      console.log('我需要favData的数据', data)
+      // console.log('我需要favData的数据', data)
       this.favCities = data
     })
   },
