@@ -32,9 +32,9 @@ npm run lint
 -  💜 显示相关城市24小时每时段的天气信息
 -  💜 预测相关城市7天内的天气信息
 
-<img src="https://github.com/langyixuan/Vue-Weather-App/blob/master/public/img1.png" width="600px"><br><br>
-<img src="https://github.com/langyixuan/Vue-Weather-App/blob/master/public/img2.png" width="600px"><br><br>
-<img src="https://github.com/langyixuan/Vue-Weather-App/blob/master/public/img3.png" width="600px"><br><br>
+<img src="https://github.com/langyixuan/Vue-Weather-App/blob/master/public/img1.png" width="250px"><br><br>
+<img src="https://github.com/langyixuan/Vue-Weather-App/blob/master/public/img2.png" width="250px"><br><br>
+<img src="https://github.com/langyixuan/Vue-Weather-App/blob/master/public/img3.png" width="250px"><br><br>
 
 
 
